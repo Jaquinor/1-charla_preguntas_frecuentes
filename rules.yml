@@ -1,0 +1,16 @@
+version: "3.1"
+
+rules:
+
+- rule: responde a preguntas frecuentes
+  steps:
+  - intent: pregunta_frecuente
+  - action: utter_pregunta_frecuente
+
+- rule: charla
+  steps:
+  - intent: charla
+  - action: utter_charla
+
+
+

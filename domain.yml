@@ -1,0 +1,43 @@
+version: "3.1"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+intents:
+  - pregunta_frecuente 
+  - charla
+  
+responses:
+
+#preguntas_frecuentes
+  utter_pregunta_frecuente/bot:
+  - text: "Soy NacaBot, un bot conversacional"
+  - text: "Soy un agente conversacional, para asesorías en neumática"
+  - text: "Soy un Chat Bot, creado por José Aquino para NACA"
+  utter_pregunta_frecuente/hora:  
+  - text: "No tengo reloj"
+  - text: "Ni idea"
+  - text: "Se me dañó el reloj"
+  utter_pregunta_frecuente/clima:
+  - text: "No tengo la menor idea"
+  - text: "No me ocupo del clima"
+  - text: "Esa no es mi función"
+
+#charlas
+  utter_charla/saludar:  
+  - text: "¡Hola!"
+  - text: "¡Epale!"
+  utter_charla/buen_humor:
+  - text: "¡Excelente, me alegro!"
+  - text: "¡Estupendo!"
+  utter_charla/mal_humor:
+  - text: "Espero que todo mejore pronto"
+  - text: "Deseo que puedas resolver tus problemas"
+  utter_charla/afirmar:
+  - text: "afirmación recibida"
+  utter_charla/negar:
+  - text: "negación recibida"
+  utter_charla/despedir:
+  - text: "Adios, nos hablamos..."
+  - text: "Hasta luego, espero que pronto volvamos a chatear..."

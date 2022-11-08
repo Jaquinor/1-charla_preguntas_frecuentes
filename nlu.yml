@@ -1,0 +1,92 @@
+version: "3.1"
+
+nlu:
+
+# pregunta frecuente
+  - intent: pregunta_frecuente/bot 
+    examples: |
+      - ¿Eres un bot?
+      - ¿Eres un humano?
+      - ¿Estoy hablando con un bot?
+      - ¿Estoy hablando con un humano?
+      - ¿Cuál es tu función?
+      - ¿De qué te ocupas?    
+  - intent: pregunta_frecuente/hora 
+    examples: |
+      - ¿Qué hora es?
+      - ¿Me puedes decir la hora por favor?
+      - ¿Qué hora tienes?  
+  - intent: pregunta_frecuente/clima
+    examples: | 
+      - ¿Como esta el tiempo hoy?
+      - ¿Se ve soleado afuera hoy?
+      - ¿Se ve nublado afuera hoy?
+      - Dime el clima  
+
+# charla
+  - intent: charla/saludar
+    examples: |
+      - hola 
+      - buenos dias 
+      - buenas noches 
+      - hola amigo  
+      - buenas tardes
+      - epale  
+  - intent: charla/buen_humor
+    examples: |
+      - bien
+      - Perfecto
+      - estupendo
+      - increible
+      - me siento como un rey
+      - maravilloso
+      - me siento muy bien
+      - soy genial
+      - Soy asombroso
+      - Voy a salvar el mundo.
+      - super emocionado
+      - extremadamente bueno
+      - tan tan perfecto
+      - tan bueno
+      - tan perfecto
+      - estoy feliz  
+  - intent: charla/mal_humor
+    examples: |
+      - mal
+      - mi dia fue horrible
+      - Estoy triste
+      - no me siento muy bien
+      - Estoy decepcionado
+      - muy triste
+      - Estoy muy triste
+      - triste
+      - muy triste
+      - infeliz
+      - no es bueno
+      - no muy bueno
+      - extremadamente triste
+      - tan triste
+      - muy triste  
+  - intent: charla/afirmar
+    examples: |
+      - si
+      - Por supuesto
+      - Eso suena bien
+      - correcto  
+  - intent: charla/negar
+    examples: |
+      - no
+      - nunca
+      - No me parece
+      - no me gusta eso
+      - de ninguna manera
+      - realmente no                         
+  - intent: charla/despedir
+    examples: |   
+      - te veo luego
+      - buenas noches
+      - adios
+      - que tengas un lindo dia
+      - Ya nos veremos  
+
+
