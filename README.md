@@ -1,2 +1,2 @@
-# Rasa_chitchat_faq
-Charlas y preguntas frecuentes con Rasa
+# Charlas_y_preguntas_frecuentes 
+chitchat_faq con Rasa
